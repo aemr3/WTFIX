@@ -20,7 +20,7 @@ import numbers
 from collections import OrderedDict
 from typing import Union, List, Type
 
-import aioredis
+from redis import asyncio as aioredis
 import abc
 
 from wtfix.core.decoders import JSONMessageDecoder

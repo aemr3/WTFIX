@@ -32,7 +32,7 @@ setup(
         "flask-restful>=0.3.7",
         "requests>=2.22",
         "gunicorn>=19.9",
-        "aioredis>=1.3",
+        "redis>=5.0.1",
     ],
     python_requires=">=3.8",
     project_urls={

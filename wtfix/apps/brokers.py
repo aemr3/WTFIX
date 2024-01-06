@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import asyncio
 
-import aioredis
+from redis import asyncio as aioredis
 
 from wtfix.apps.base import BaseApp
 from wtfix.conf import settings
